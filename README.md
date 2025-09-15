@@ -33,10 +33,7 @@ It collects local environmental data (wind speed and temperature) and publishes 
     - `OneWire` / `DallasTemperature` for DS18B20 (if used).
     - `DHT` library for DHT sensors (if used).
     - ESP32 Ethernet (LAN8720) support.
-- Code calculates wind speed using this equation:
-$$
-  v = n \times 0.3 \,\text{m/s}
-$$
+- The wind speed is calculated as $v = n \times 0.3 \,\text{m/s}$.
 
 ---
 
